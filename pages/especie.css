@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(101, 148, 125);
+}
+
+main {
+    margin: 35px auto;
+    width: 90%;
+    height: auto;
+}
+main h1 {
+    background-color: rgb(150, 177, 152);
+
+}
+
+.main-info {
+    margin-top: 25px;
+    background-color: rgb(163, 183, 165);
+}

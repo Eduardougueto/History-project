@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(215, 237, 255);
+}
+
+header {
+    background-color: rgb(240, 216, 198);
+    width: 100%;
+    height: 190px;
+    display: flex;
+}
+    #illust-box {
+        width: 325px;
+        height: 100%;
+        background-color: rgb(69, 97, 97);
+    }
+    #rigthbox-header {
+        margin-top: 25px;
+        width: 72%;
+        height: 165px;
+        background-color: rgb(201, 168, 143);
+    }
+        #rigthbox-inside {
+            margin-top: 30px;
+            width: 95%;
+            height: 135px;
+            background-color: rgb(154, 121, 97);
+            text-align: center;
+            color: rgb(255, 244, 219);
+     }
+
+.themes {
+    width: 100%;
+    height: 35px;
+    background-color: rgb(80, 58, 22);
+    border: 1px solid rgb(98, 93, 89);
+    display: flex;
+    justify-content: center;
+}
+    .themes a {
+        text-decoration: none;
+        color: rgb(255, 244, 219);
+    }
+    .themes h2 {
+        margin-right: 99px;
+    }
+        #onThatPage {     color: rgb(176, 164, 138); }
+
+main {
+    margin: 30px auto 0;
+    /* background-color: aqua; */
+    width: 98%;
+    height: auto;
+    padding: 35px;
+}
+    #prehistoric-tag {
+        box-shadow: -2px -2px 2px saddlebrown;
+        width: 25%;
+        margin-bottom: 25px;
+    }
+    #vectors-container {
+        width: 75%;
+        height: 280px;
+        /* background-color: rgb(147, 181, 210); */
+        display: grid;
+        grid-template-columns: 2fr 2fr ;
+        margin-bottom: 25px ;
+    }
+        #vectors-container a {
+            /* border: 2px solid  wheat; */
+            display: flex;
+        }
+        #vectors-container img {
+            margin: 0 auto;
+            width:  260px;
+            height: 250px;
+        }
+/* BOX FOR THE PREHISTORIC CONTENT  */
+    #prehistoric-content {
+        /* background-color: rgb(203, 215, 226); */
+        width: 100%;
+        height: 280px;
+        margin-bottom: 25px ;
+    }
+        #pre-boxes {
+            background-color: rgb(198, 227, 255);
+            text-align: center;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 145px 145px 145px;
+        }
+        #prehistoric-content h3 {
+            padding: 20px 0 20px 0;
+            border: 1px solid rgb(46, 196, 255);
+        }
+        #prehistoric-content a {
+            color: rgb(0, 40, 75);
+            text-decoration: none;
+        }
+        #prehistoric-content img {
+            padding: 35px;
+            width: 100%;
+            height: 280px;
+        }
+        /* BOX FOR THE PREHISTORIC CONTENT  */
+
+    .contemporary-content {
+        /* background-color: rgb(203, 215, 226); */
+        width: 100%;
+        height: 280px;
+        margin-bottom: 25px ;
+    }
+        .contemporary-tag {
+            box-shadow: -2px -2px 2px saddlebrown;
+            width: 35%;
+            margin-bottom: 40px;
+        }
+        .con-boxes {
+            background-color: rgb(198, 227, 255);
+            text-align: center;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 145px 145px 145px;  
+        }
+        .contemporary-content a {
+            color: rgb(0, 40, 75);
+            text-decoration: none;
+        }
+        .contemporary-content h3 {
+            padding: 20px 0 20px 0;
+            border: 1px solid rgb(46, 196, 255);
+        }
+        .contemporary-content  img {
+            padding: 35px;
+            width: 100%;
+            height: 210px;
+        }
